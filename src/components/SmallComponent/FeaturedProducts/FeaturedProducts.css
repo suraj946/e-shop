@@ -1,0 +1,20 @@
+.featuredProductBox{
+    width: 100vw;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headerText{
+    border-bottom: 2px solid #919191;
+    width: 190px;
+    text-align: center;
+    color: #0043ff;
+    font-size: 20px;
+}
+.productItemBox{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}

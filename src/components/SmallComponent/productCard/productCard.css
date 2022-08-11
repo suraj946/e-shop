@@ -1,0 +1,19 @@
+.productCard{
+    /* background-color: red; */
+    width: 10vw;
+    margin: 7px;
+    transition: all 0.2s;
+}
+.productCard:hover{
+    box-shadow: 2px 1px 7px grey;
+    transform: translateY(-3px);
+}
+.productImage{
+    width: 100%;
+}
+.productInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

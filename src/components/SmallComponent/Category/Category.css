@@ -1,0 +1,32 @@
+.categoryBox{
+    height: 7vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 150px;
+    width: 100vw;
+    max-width: 100vw;
+    background-color: white;
+}
+.categoryItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.categoryItem:hover{
+    color: rgb(70, 133, 252);
+}
+
+@media screen and (max-width : 900px) {
+    .categoryBox{
+        height: 140px;
+        overflow-x: scroll;
+        padding: 5px 15px;
+        justify-content: flex-start;
+    } 
+    .categoryItem{
+        margin: 8px;
+    }
+}
